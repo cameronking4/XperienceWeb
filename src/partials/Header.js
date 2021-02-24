@@ -53,11 +53,11 @@ function Header() {
                 <Link to="/" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Home</Link>
               </li> */}
               <li>
-                <Link to="/pricing" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Fashion Brands</Link>
+                <Link to="/pricing" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Pricing</Link>
               </li>
               <li>
                 <Link to="/features" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                  Invest
+                  Mission
                 </Link>
               </li>
               <li>
@@ -113,10 +113,10 @@ function Header() {
                 <Link to="/" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Home</Link>
               </li>
                 <li>
-                  <Link to="/features" className="flex text-gray-300 hover:text-gray-200 py-2">Invest</Link>
+                  <Link to="/features" className="flex text-gray-300 hover:text-gray-200 py-2">Mission</Link>
                 </li>
                 <li>
-                  <Link to="/pricing" className="flex text-gray-300 hover:text-gray-200 py-2">Fashion Brands</Link>
+                  <Link to="/pricing" className="flex text-gray-300 hover:text-gray-200 py-2">Pricing</Link>
                 </li>
                 <li>
                   <Link to="/blog" className="flex text-gray-300 hover:text-gray-200 py-2">Blog</Link>

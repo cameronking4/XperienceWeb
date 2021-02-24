@@ -7,6 +7,7 @@ import Faqs from '../partials/Faqs';
 import Testimonials from '../partials/Testimonials';
 import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
+import ValueProps from '../partials/ValueProps';
 
 function Pricing() {
   return (
@@ -24,9 +25,15 @@ function Pricing() {
         </div>
 
         {/*  Page sections */}
+        <ValueProps />
+
         <PricingTables />
+        <br></br> 
+         <br></br> 
+         <br></br>
+          <br></br>
         <Faqs />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Cta />
 
       </main>

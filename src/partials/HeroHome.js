@@ -29,47 +29,21 @@ function HeroHome() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">Xperience Shopping</h1>
             <br></br>
-            <p className="h2 text-teal-600 mb-8" data-aos="fade-up" data-aos-delay="200"> Reducing the Hassle of Clothing Returns to Save the Planet!</p>
+            <p className="h2 text-teal-600 mb-8" data-aos="fade-up" data-aos-delay="200"> Reducing the Hassle of Clothing Returns to Save the Environment!</p>
             <p className="h4 text-white-400 mb-8" data-aos="fade-down" data-aos-delay="700">Using advanced body-scanning technology, we suggest the best sizing for a perfect fit when online shopping</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-teal-600 hover:bg-teal-700 w-full mb-4 sm:w-auto sm:mb-0" target= "_blank" href="https://66k0wb09ifj.typeform.com/to/udPe0Ueo" target="_blank">Demo</a>
+                <a className="btn text-white bg-teal-600 hover:bg-teal-700 w-full mb-4 sm:w-auto sm:mb-0" target= "_blank" href="http://172.83.12.207:5000/" target="_blank">Demo</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/features">Learn more</a>
+                <a className="btn text-white bg-gray-500 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/features">Learn More</a>
               </div>
             </div>
             <br></br>
             
           </div>
-
-          {/* Hero image */}
-          <div>
-            <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="500">
-              <img className="mx-auto" src={require('../images/homepage.png')} width="780" height="304" alt="Hero" />
-              <a className="absolute group" href="#0" onClick={(e) => { e.preventDefault(); setVideoModalOpen(true); }} aria-controls="modal">
-                <svg className="w-16 h-16 sm:w-20 sm:h-20 hover:opacity-75 transition duration-150 ease-in-out" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <linearGradient x1="78.169%" y1="9.507%" x2="24.434%" y2="90.469%" id="a">
-                      <stop stopColor="#EBF1F5" stopOpacity=".8" offset="0%" />
-                      <stop stopColor="#EBF1F5" offset="100%" />
-                    </linearGradient>
-                  </defs>
-                  <circle fill="url(#a)" cx="44" cy="44" r="44" />
-                  <path className="fill-current text-teal-600" d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z" />
-                </svg>
-              </a>
-            </div>
-            
-            {/* Modal */}
-            <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
-              <div className="relative pb-9/16">
-                <iframe className="absolute w-full h-full" src="https://player.vimeo.com/video/505491512" title="Video" allowFullScreen></iframe>
-              </div>
-            </Modal>
-
-          </div>
-
+   {/* Image */}
+   <img className="mx-auto" src={require('../images/Home.gif')} width="1080" height="432" alt="Hero" data-aos="fade-up" data-aos-delay="400" />
         </div>
 
       </div>

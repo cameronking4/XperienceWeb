@@ -22,26 +22,12 @@ function PricingTables() {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-        <div className="max-w-3xl mx-auto text-center pb-12">
-            <h1 className="h1 mb-4" data-aos="fade-up">Made For E-commerce Sites</h1>
-            <p className="h4 text-teal-600" data-aos="fade-up" data-aos-delay="200">Add our TruFit plugin to your e-commerce platform</p>
-          </div>
-
         <div>
-          {/* Image */}
-          <img className="mx-auto" src={require('../images/FigmaScreens/AdminPanel.png')} width="980" height="auto" alt="Hero" data-aos="fade-up" data-aos-delay="600" />
-        </div>
-        
-        <br></br>
-        <br></br> 
-        <br></br> 
-        <br></br> 
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12">
+          <div className="max-w-3xl mx-auto text-center ">
             <h1 className="h1 mb-4" data-aos="fade-up">Simple, transparent pricing</h1>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Contact us for custom solutions.</p>
+            {/* <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Contact us for custom solutions.</p> */}
           </div>
 
           {/* Pricing tables */}
@@ -215,16 +201,27 @@ function PricingTables() {
               </div>
 
             </div>
+            
 
             {/* Bottom infobox */}
             <div className="flex flex-col lg:flex-row justify-between items-center mt-12 lg:mt-6 lg:py-8 lg:border-t lg:border-b lg:border-gray-800">
-              <div className="font-medium text-lg text-center lg:text-left mb-4 lg:mb-0">Expecting more than 1000 Active End Users?</div>
+              <div className="font-medium text-lg text-center lg:text-left mb-4 lg:mb-0">Prefer to license? We can provide a white-label API service and platform-as-service option for enterprises.</div>
               <div>
                 <a className="btn-sm text-white bg-teal-600 hover:bg-teal-700" href="https://66k0wb09ifj.typeform.com/to/A48K4UcR">Contact us</a>
               </div>
             </div>
 
           </div>
+
+          <br></br>
+<br></br>
+<br></br>
+
+          {/* Image */}
+          <img className="mx-auto" src={require('../images/FigmaScreens/AdminPanel.png')} width="980" height="auto" alt="Hero" data-aos="fade-up" data-aos-delay="600" />
+   <br></br>
+   <center> <p className="p text-teal-600" data-aos="fade-up" data-aos-delay="200">Admin Portal for Fashion Brands</p> </center>
+          
 
         </div>
       </div>

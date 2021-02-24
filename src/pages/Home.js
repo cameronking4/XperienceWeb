@@ -32,7 +32,7 @@ function Home() {
         <Process />
         <FeaturesHome />
         <Tabs />
-        <Target />
+        {/* <Target /> */}
         {/* <Process2 /> */}
         <News />
         <Newsletter />

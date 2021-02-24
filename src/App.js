@@ -22,10 +22,17 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import PageNotFound from './pages/PageNotFound';
+import ReactGa from 'react-ga';
 
 function App() {
 
   const location = useLocation();
+
+  useEffect(() =>  {
+    ReactGa.initialize('UA-188479552-1');
+    //to report pageview
+    ReactGa.pageview(window.location.pathname + window.location.search);
+  });
 
   useEffect(() => {
     AOS.init({

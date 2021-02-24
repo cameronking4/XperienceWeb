@@ -27,27 +27,21 @@ function FeaturesZigzag() {
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-teal-600 mb-2">Works for web and mobile!</div>
                   <h3 className="h3 mb-3">Fashion Site Plug-In</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <ul className="text-lg text-gray-400 -mb-2">
+                  <p className="text-xl text-gray-400 mb-4">Our web plugin allows ecommerce sites to quickly guarantee the perfect fit for their shoppers without ever having to download an app. This allows us to be scalable and grow directly by number of customers. </p>
+                  {/* <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Scalable</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Convenient</span>
                     </li>
-                    <li className="flex items-center">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Amet consectetur adipiscing elit</span>
-                    </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -63,8 +57,8 @@ function FeaturesZigzag() {
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-teal-600 mb-2">Integrates with major PLM softwares</div>
                   <h3 className="h3 mb-3">E-commerce Partners Admin Panel</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <ul className="text-lg text-gray-400 -mb-2">
+                  <p className="text-xl text-gray-400 mb-4">E-commerce platforms create an account with our admin portal to input their size charts. We integrate with major management softwares and can dynamically recommend sizes for individual SKUs.</p>
+                  {/* <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -83,7 +77,7 @@ function FeaturesZigzag() {
                       </svg>
                       <span>Amet consectetur adipiscing elit</span>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -98,9 +92,9 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-teal-600 mb-2">Thinking about the little guy</div>
-                  <h3 className="h3 mb-3">Shopify Plug-in</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <ul className="text-lg text-gray-400 -mb-2">
+                  <h3 className="h3 mb-3">Chrome Extension <br></br>+ Shopify Plug-in</h3>
+                  <p className="text-xl text-gray-400 mb-4">Coming Soon.</p>
+                  {/* <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -119,7 +113,7 @@ function FeaturesZigzag() {
                       </svg>
                       <span>Amet consectetur adipiscing elit</span>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>

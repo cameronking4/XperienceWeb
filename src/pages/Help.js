@@ -33,7 +33,7 @@ function Help() {
                 {/* FAQ’s – Frequently Asked Questions */}
                 <div className={page !== 1 ? 'hidden' : undefined}>
                   <div className="mb-8">
-                    <h2 className="h2 mb-4">FAQ’s – Frequently Asked Questions</h2>
+                    <h2 className="h2 mb-4">On Product</h2>
                     <p className="text-gray-400">Last updated - <span className="text-teal-600">June 30, 2020</span></p>
                   </div>
                   <ul className="-my-4">
@@ -71,7 +71,7 @@ function Help() {
                 {/* What is Xperience Shopping */}
                 <div className={page !== 2 ? 'hidden' : undefined}>
                   <div className="mb-8">
-                    <h2 className="h2 mb-4">What is Xperience Shopping</h2>
+                    <h2 className="h2 mb-4">For Fashion Brands</h2>
                     <p className="text-gray-400">Last updated - <span className="text-teal-600">June 30, 2020</span></p>
                   </div>
                   <ul className="-my-4">
@@ -109,7 +109,7 @@ function Help() {
                 {/* Xperience Shopping plan’s features */}
                 <div className={page !== 3 ? 'hidden' : undefined}>
                   <div className="mb-8">
-                    <h2 className="h2 mb-4">Xperience Shopping plan’s features</h2>
+                    <h2 className="h2 mb-4">For Investors</h2>
                     <p className="text-gray-400">Last updated - <span className="text-teal-600">June 30, 2020</span></p>
                   </div>
                   <ul className="-my-4">
@@ -147,7 +147,7 @@ function Help() {
                 {/* Get started */}
                 <div className={page !== 4 ? 'hidden' : undefined}>
                   <div className="mb-8">
-                    <h2 className="h2 mb-4">Get started</h2>
+                    <h2 className="h2 mb-4">Mission</h2>
                     <p className="text-gray-400">Last updated - <span className="text-teal-600">June 30, 2020</span></p>
                   </div>
                   <ul className="-my-4">
@@ -233,7 +233,7 @@ function Help() {
                         href="#0"
                         onClick={(e) => { e.preventDefault(); setPage(1); }}
                       >
-                        <span>Frequently Asked Questions</span>
+                        <span>Product FAQs</span>
                         <svg className="w-3 h-3 fill-current flex-shrink-0 ml-2 opacity-0 group-hover:opacity-100 group-hover:text-teal-600 group-hover:translate-x-1 transition duration-150 ease-in-out transform" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" />
                         </svg>
@@ -245,7 +245,7 @@ function Help() {
                         href="#0"
                         onClick={(e) => { e.preventDefault(); setPage(2); }}
                       >
-                        <span>What is Xperience Shopping</span>
+                        <span>Ecommerce FAQs</span>
                         <svg className="w-3 h-3 fill-current flex-shrink-0 ml-2 opacity-0 group-hover:opacity-100 group-hover:text-teal-600 group-hover:translate-x-1 transition duration-150 ease-in-out transform" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" />
                         </svg>
@@ -257,7 +257,7 @@ function Help() {
                         href="#0"
                         onClick={(e) => { e.preventDefault(); setPage(3); }}
                       >
-                        <span>Xperience Shopping plan’s features</span>
+                        <span>Investor FAQs</span>
                         <svg className="w-3 h-3 fill-current flex-shrink-0 ml-2 opacity-0 group-hover:opacity-100 group-hover:text-teal-600 group-hover:translate-x-1 transition duration-150 ease-in-out transform" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" />
                         </svg>
@@ -269,7 +269,7 @@ function Help() {
                         href="#0"
                         onClick={(e) => { e.preventDefault(); setPage(4); }}
                       >
-                        <span>Get started</span>
+                        <span>Mission FAQs</span>
                         <svg className="w-3 h-3 fill-current flex-shrink-0 ml-2 opacity-0 group-hover:opacity-100 group-hover:text-teal-600 group-hover:translate-x-1 transition duration-150 ease-in-out transform" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" />
                         </svg>
