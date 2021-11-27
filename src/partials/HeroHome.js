@@ -33,8 +33,9 @@ function HeroHome() {
             <p className="h4 text-white-400 mb-8" data-aos="fade-down" data-aos-delay="700">Using advanced body-scanning technology, we suggest the best sizing for a perfect fit when online shopping</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-teal-600 hover:bg-teal-700 w-full mb-4 sm:w-auto sm:mb-0" target= "_blank" href="http://172.83.12.207:5000/" target="_blank">Demo</a>
+                <a className="btn text-white bg-teal-600 hover:bg-teal-700 w-full mb-4 sm:w-auto sm:mb-0" target= "_blank" href="http://custom-measure.onrender.com">Try Now!</a>
               </div>
+              {/* http://172.83.12.207:5000/ */}
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-500 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/features">Learn More</a>
               </div>
