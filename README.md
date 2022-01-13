@@ -1,6 +1,6 @@
-# Xperience Shopping React
+# Xperience Shopping Website (v1)
 
-React landing page template designed by Cruip.
+React startup landing page template
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
